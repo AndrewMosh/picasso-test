@@ -14,14 +14,14 @@ import {
 import { Spinner } from '@chakra-ui/react'
 const PostList = () => {
   const { data: posts } = useGetPostsQuery();
-  const [visiblePosts, setVisiblePosts] = useState(8); // Начальное количество видимых постов
+  const [visiblePosts, setVisiblePosts] = useState(8); 
   const [loading, setLoading] = useState(false);
   const handleScroll = () => {
     const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
     if (scrollTop + clientHeight >= scrollHeight - 100 && !loading) {
       setLoading(true);
       setTimeout(() => {
-        setVisiblePosts((prevVisiblePosts) => prevVisiblePosts + 8); // Увеличиваем количество видимых постов
+        setVisiblePosts((prevVisiblePosts) => prevVisiblePosts + 8); 
         setLoading(false);
       }, 1000);
     }
