@@ -4,7 +4,7 @@
 
 ## Используемые библиотеки и инструменты
 
-React,RTK Query, React Router DOM 6,JSON Placeholder, FSD-архитектура,
+React,RTK Query, React Router DOM 6,JSON Placeholder, FSD-архитектура
 
-## Просмотр проект
+## Просмотр проекта
 

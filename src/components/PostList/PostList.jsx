@@ -76,7 +76,7 @@ const PostList = () => {
           px={3}>
 {post.body.slice(0, 100)}...        
         </Text>
-          <Link to={`/picasso-test/posts/${post.id}`}>  
+          <Link to={`/posts/${post.id}`}>  
           <Button
             flex={1}
             fontSize={'sm'}
