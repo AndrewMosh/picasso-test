@@ -23,7 +23,7 @@ const Error=()=>{
       <Text color={'gray.500'}>
       Ошибка при загрузке поста или такой пост не существует
       </Text>
-      <Link to="/picasso-test/">
+      <Link to="/">
       <Button colorScheme="red" mt={4}>
         назад
       </Button>

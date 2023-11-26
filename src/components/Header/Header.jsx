@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <Link to="/picasso-test/">
+        <Link to="/">
             <header className={styles.header}>
                 <img src={logo} alt="blog" width={100} height={100} />
             </header>

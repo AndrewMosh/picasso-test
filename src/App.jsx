@@ -11,8 +11,8 @@ const App = () => {
       <Header />
       <React.Suspense fallback={<div style={{height: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Spinner size="xl" color="blue.500" /></div>}>
       <Routes>
-        <Route path="/picasso-test/" element={<MyLazyPostList />} />
-        <Route path="/picasso-test/posts/:postId" element={<PostDetail />} />
+        <Route path="/" element={<MyLazyPostList />} />
+        <Route path="/posts/:postId" element={<PostDetail />} />
       </Routes>
       </React.Suspense>
     </Router>
