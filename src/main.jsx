@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import store from './components/store/store';
+import store from './widgets/store/store';
 import App from './App';
 import { ChakraProvider } from '@chakra-ui/react'
 

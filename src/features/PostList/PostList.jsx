@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useGetPostsQuery } from '../../api/api';
+import { useGetPostsQuery } from '../../widgets/api/api';
 import { Link } from 'react-router-dom';
 import styles from './PostList.module.css';
 import {

@@ -2,9 +2,9 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Spinner } from '@chakra-ui/react';
-import PostDetail from './components/PostDetails/PostDetail';
-const MyLazyPostList = React.lazy(() => import('./components/PostList/PostList'));
-const MyLazyHeader= React.lazy(() => import('./components/Header/Header'));
+import PostDetail from './features/PostDetails/PostDetail';
+const MyLazyPostList = React.lazy(() => import('./features/PostList/PostList'));
+const MyLazyHeader= React.lazy(() => import('./features/Header/Header'));
 const App = () => {
   return (
     <Router>

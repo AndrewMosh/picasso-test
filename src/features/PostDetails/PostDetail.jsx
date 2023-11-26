@@ -1,6 +1,6 @@
 // components/PostDetail.js
 import React from 'react';
-import { useGetPostByIdQuery } from '../../api/api';
+import { useGetPostByIdQuery } from '../../widgets/api/api';
 import { useParams, Link } from 'react-router-dom';
 import {
   Box,
