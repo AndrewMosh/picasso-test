@@ -27,7 +27,7 @@ const PostDetail = () => {
   return (
     <div>
     {post ?  <Container key={post.id} maxW={'7xl'} p="12">
- <Link to="/">
+ <Link to="/picasso-test/">
         <Button mb={5}>Back</Button>
       </Link>
       <Box
