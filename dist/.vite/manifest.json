@@ -1,0 +1,28 @@
+{
+  "src/assets/logo.png": {
+    "file": "assets/logo-HEdcpAo_.png",
+    "src": "src/assets/logo.png"
+  },
+  "src/components/PostList/PostList.jsx": {
+    "file": "assets/PostList-KKK0GFBr.js",
+    "imports": [
+      "src/main.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/PostList/PostList.jsx"
+  },
+  "src/main.jsx": {
+    "assets": [
+      "assets/logo-HEdcpAo_.png"
+    ],
+    "css": [
+      "assets/main-Sfm250Vc.css"
+    ],
+    "dynamicImports": [
+      "src/components/PostList/PostList.jsx"
+    ],
+    "file": "assets/main-ByzVvI3q.js",
+    "isEntry": true,
+    "src": "src/main.jsx"
+  }
+}

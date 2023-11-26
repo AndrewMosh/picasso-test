@@ -5,13 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/picasso-test/',
   plugins: [react()],
-  build: {
-    assetsDir: 'assets',
-    manifest: true,
-    outDir: 'dist',
-    rollupOptions: {
-      input: 'src/main.js',
-    },
-  }
-
 })

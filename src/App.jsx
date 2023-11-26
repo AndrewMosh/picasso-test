@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Spinner } from '@chakra-ui/react';
 import PostDetail from './components/PostDetails/PostDetail';
 import Header from './components/Header/Header';
