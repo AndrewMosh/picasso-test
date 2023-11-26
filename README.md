@@ -7,4 +7,4 @@
 React,RTK Query, React Router DOM 6,JSON Placeholder, FSD-архитектура
 
 ## Просмотр проекта
-
+[Demo](https://andrewmosh.github.io/picasso-test/)
