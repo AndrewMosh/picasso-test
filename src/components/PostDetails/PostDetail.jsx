@@ -10,7 +10,6 @@ import {
   useColorModeValue,
   Container,
 Button,
-
 } from '@chakra-ui/react'
 import { Spinner } from '@chakra-ui/react';
 import  styles from '../PostList/PostList.module.css'
