@@ -1,0 +1,20 @@
+.list {
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 20px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    column-gap:50px;
+
+}
+.spinner {
+    width: 100%;
+  text-align: center;
+  padding-bottom: 30px; 
+}
+.forPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
